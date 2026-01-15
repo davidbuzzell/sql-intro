@@ -11,5 +11,5 @@ FROM stats
 INNER JOIN players ON players.id = stats.player_id
 INNER JOIN teams ON teams.id = stats.team_id
 WHERE (teams.year = 2019)
-ORDER BY home_runs DESC
+ORDER BY stats.home_runs DESC
 LIMIT 1;
