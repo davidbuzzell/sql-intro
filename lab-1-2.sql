@@ -15,4 +15,4 @@
 -- +------+-----------------------------------+------+
 
 SELECT year, name, wins FROM teams
-    ORDER BY wins ASC;
+ORDER BY wins ASC;

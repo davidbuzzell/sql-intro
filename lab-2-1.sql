@@ -16,5 +16,5 @@
 -- +------+------------------------+------+
 
 SELECT year, name, wins from teams
-    WHERE (wins > 100)
-    ORDER BY year ASC;
+WHERE (wins > 100)
+ORDER BY year ASC;
