@@ -3,8 +3,10 @@
 ```sql
 SELECT _____
 FROM _____
+INNER JOIN _____
 WHERE _____
 (AND _____)
-ORDER BY ______ (DESC)
+GROUP BY _____
+ORDER BY _____ (DESC)
 LIMIT _____;
 ```
