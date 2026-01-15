@@ -4,6 +4,6 @@
 -- 2935
 
 SELECT SUM(stats.hits)
-FROM stats
-INNER JOIN players ON players.id = stats.player_id
-WHERE (first_name = "Barry" AND last_name = "Bonds");
+FROM players
+INNER JOIN stats ON players.id = stats.player_id
+WHERE (players.first_name = 'Barry' AND players.last_name = 'Bonds');
