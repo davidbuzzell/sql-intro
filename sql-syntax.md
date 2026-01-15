@@ -3,7 +3,7 @@
 ```sql
 SELECT _____
 FROM _____
-INNER JOIN _____
+INNER JOIN _____ ON _____ = _____
 WHERE _____
 (AND _____)
 GROUP BY _____
